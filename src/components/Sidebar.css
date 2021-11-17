@@ -1,0 +1,10 @@
+.Sidebar{
+    background-color:black;
+}
+.Selected{
+    /* padding: 0.4rem; */
+    background:#282828;
+}
+.line{
+    border:0.1px solid #282828;
+}
