@@ -1,0 +1,15 @@
+.login{
+    display:grid;
+    place-items:center;
+    /* max-height: 100vh; */
+    height:100%;
+    height:46vw;
+}
+a{
+    border:2px solid white;    
+    padding:1rem;
+}
+.main{
+    
+    background-color:black;
+}

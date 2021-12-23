@@ -1,0 +1,25 @@
+.fotter{
+    height:65px;
+    background-color:#282828;
+    display:flex;
+    padding:20px;
+    justify-content: space-between;
+}
+.fotter-left{
+    flex:0.3;
+}
+.fotter-center{
+    flex:0.4;
+    display:flex;
+    align-items: center;
+    color:grey;
+    padding:0 100px;
+    justify-content: space-between;
+    max-width: 300px;
+}
+.play_btn{
+    font-size:2rem;
+}
+.fotter-right{
+    flex:0.3;
+}
