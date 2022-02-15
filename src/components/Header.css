@@ -1,0 +1,15 @@
+.search{
+    background: none;
+    border: none !important;
+    margin-left:20px;
+    padding:4px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:640px){
+    .user_name{
+        display: none;
+    }   
+}

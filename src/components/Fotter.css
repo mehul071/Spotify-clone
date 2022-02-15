@@ -1,12 +1,21 @@
 .fotter{
-    height:65px;
+    height:75px;
     background-color:#282828;
     display:flex;
-    padding:20px;
+    padding:14px;
     justify-content: space-between;
 }
 .fotter-left{
+    display: flex;
+    align-items: center;
+    width:300px;
     flex:0.3;
+}
+.song-img{
+    height:60px;
+    width: 60px;
+    object-fit: contain;
+    margin-right:20px;
 }
 .fotter-center{
     flex:0.4;
@@ -22,4 +31,19 @@
 }
 .fotter-right{
     flex:0.3;
+}
+.slider{
+    width:40px;
+}
+.fotter-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;   
+}
+h6{
+    margin-bottom: 0 !important;
+}
+.footer__icon:hover,.footer_green:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
 }

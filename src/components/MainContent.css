@@ -3,4 +3,35 @@
     background: linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
     flex:0.9;
     padding: 2rem;
+   overflow-y: overlay; 
+}
+.poster_img{
+    height:250px;
+    width:250px;
+}
+@media screen and (max-width:759px){
+    .poster_img{
+        height:200px;
+        width: 200px;
+    }   
+}
+p{
+    margin-bottom: 0 !important;
+}
+.body::-webkit-scrollbar {
+    display: none;
+  }
+
+.playbtn:hover {
+    transition: 0.4s transform ease-in-out;
+    transform: scale(1.08);
+}
+.options__btn{
+    color:grey;
+}
+.options__btn:hover {
+    color:white;
+}
+.song_rows{
+    margin-top:2rem;
 }
